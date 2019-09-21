@@ -9,7 +9,7 @@ Here is a slide explaining the current workflow of the organizations.
 * Admin does configuration on the code
 * Admin deploys the code to the required server 
 
-<img src="1.png" width="1000"/> 
+<img src="images/1.png" width="1000"/> 
 
 ## Whats the Problem with this ?
 These is a lot of time wasted in the admin configuration and review process which can be saved if we are able to somehow automate that process. Also a lot of small/medium sized organizations, genarally do not have a means to manage all of their servers and apps in one dashboard.
@@ -22,7 +22,7 @@ Here is a slide explaining the workflow of webkodes.
 * Webkodes deploys the code to the required server 
 * Webkodes informs the admin of the deployment
 
-<img src="3.png" width="1000"/> 
+<img src="images/2.png" width="1000"/> 
 
 
 ## Webkodes Features
