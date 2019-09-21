@@ -40,7 +40,7 @@ Here are some of the features that webkodes provides.
 
 * Developers :smiley_cat: Happy 
 * Clients :smiley: Happy
-* Admins :simple_smile: Happy
+* Admins :sunglasses: Happy
 
 
 ## Developer(s)
