@@ -38,10 +38,11 @@ Here are some of the features that webkodes provides.
 
 ## Conclusions
 
-* Developers :smiley_cat: Happy 
-* Clients :smiley: Happy
-* Admins :sunglasses: Happy
+* Developers Happy  :smiley_cat:
+* Clients Happy
+* Admins Happy
 
+What else do you need ? :sunglasses:
 
 ## Developer(s)
 **Ashutosh Dubey**
