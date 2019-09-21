@@ -7,8 +7,8 @@ Here is a slide explaining the workflow of webkodes.
 * Webkodes detects the push
 * Webkodes does configeration on the code
 * Webkodes deploys the code to the required server 
-  
-<img src="assets/screenshots/3.png" width="1000"/> 
+
+<img src="3.png" width="1000"/> 
 
 ## Developer(s)
 **Ashutosh Dubey**
