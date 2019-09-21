@@ -24,5 +24,17 @@ Here is a slide explaining the workflow of webkodes.
 
 <img src="3.png" width="1000"/> 
 
+
+## Webkodes Features
+Here are some of the features that webkodes provides.
+* Multiple Server Management
+* Multiple Project/App Management
+* CI/CD for developer productivity
+* Helps in Rapid Product Development
+* Multiple Database Management
+* Multiple Language Support (PHP/NODE)
+* Project/App Analytics 
+
+
 ## Developer(s)
 **Ashutosh Dubey**
