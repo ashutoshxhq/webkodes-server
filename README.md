@@ -12,7 +12,7 @@ Here is a slide explaining the current workflow of the organizations.
 <img src="1.png" width="1000"/> 
 
 ## Whats the Problem with this ?
-These is a lot of time wasted in the admin configuration and review process which can be saved if we are able to somehow automate that process. Also these small/medium sized organizations, genarally do not have a means to manage all of their servers and apps in one dashboard.
+These is a lot of time wasted in the admin configuration and review process which can be saved if we are able to somehow automate that process. Also a lot of small/medium sized organizations, genarally do not have a means to manage all of their servers and apps in one dashboard.
 
 ## Webkodes Workflow
 Here is a slide explaining the workflow of webkodes.
