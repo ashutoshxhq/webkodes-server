@@ -11,12 +11,16 @@ Here is a slide explaining the current workflow of the organizations.
 
 <img src="1.png" width="1000"/> 
 
+## Whats the Problem with this ?
+These is a lot of time wasted in the admin configeration and review process which can be saved if we are able to somehow automate that process.
+
 ## Webkodes Workflow
 Here is a slide explaining the workflow of webkodes.
 * Developer pushes the code
 * Webkodes detects the push
 * Webkodes does configuration on the code
 * Webkodes deploys the code to the required server 
+* Webkodes informs the admin of the deployment
 
 <img src="3.png" width="1000"/> 
 
