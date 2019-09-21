@@ -12,7 +12,7 @@ Here is a slide explaining the current workflow of the organizations.
 <img src="1.png" width="1000"/> 
 
 ## Whats the Problem with this ?
-These is a lot of time wasted in the admin configeration and review process which can be saved if we are able to somehow automate that process.
+These is a lot of time wasted in the admin configuration  and review process which can be saved if we are able to somehow automate that process.
 
 ## Webkodes Workflow
 Here is a slide explaining the workflow of webkodes.
