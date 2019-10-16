@@ -1,9 +1,15 @@
 package main
 
 import (
-	"fmt"
+	"github.com/gin-gonic/gin"
+	"webkodes.com/admin/routes"
 )
 
 func main() {
-	fmt.Println("Hello Rest")
+	r := gin.Default()
+	r.Static("/public", "./public")
+	r.LoadHTMLGlob("views/*")
+	r = routes.AuthRouter(r)
+	r = routes.IndexRouter(r)
+	r.Run()
 }
