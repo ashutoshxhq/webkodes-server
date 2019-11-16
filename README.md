@@ -46,7 +46,7 @@ Here are some of the features that webkodes provides.
 What else do you need ? :sunglasses:
 
 
-## How to Use Webkodes Admin?
+## How to Use Webkodes Server?
 1. **Clone the Repo**
 ```
 $ git clone https://github.com/idkashutosh/webkodes-server.git
