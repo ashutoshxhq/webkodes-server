@@ -11,5 +11,5 @@ func main() {
 	r.LoadHTMLGlob("views/**/*")
 	r = routes.AuthRouter(r)
 	r = routes.IndexRouter(r)
-	r.Run()
+	r.Run("localhost:8080")
 }

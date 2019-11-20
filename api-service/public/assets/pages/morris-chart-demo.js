@@ -32,14 +32,14 @@ $(function() {
         element: "morris-area-example",
         lineColors: ["#2e7ce4"],
         data: [
-          { y: "Mon", a: 80},
+          { y: "Mon", a: 10},
           { y: "Tue", a: 10},
-          { y: "Web", a: 90},
-          { y: "Thr", a: 10},
-          { y: "Fri", a: 20},
+          { y: "Web", a: 10},
+          { y: "Thr", a: 20},
+          { y: "Fri", a: 60},
           { y: "Sat", a: 70},
-          { y: "Sun", a: 20},
-          { y: "Mon", a: 20}
+          { y: "Sun", a: 75},
+          { y: "Mon", a: 79}
         ],
         xkey: "y",
         ymax: 100,
