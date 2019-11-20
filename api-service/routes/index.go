@@ -12,6 +12,8 @@ func IndexRouter(r *gin.Engine) *gin.Engine {
 
 	r.GET("/", controllers.Index)
 
+	r.GET("/createworkspace", controllers.CreateWorkspace)
+
 	r.GET("/index", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "index.html", gin.H{
 			"title": "Main website",

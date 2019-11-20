@@ -1,0 +1,276 @@
+{{ define "pages/index.html" }}
+    {{template "layouts/index.html" .}}
+{{end}}
+{{ define "content" }}
+<div class="page-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-3 col-md-4 col-lg-4">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card m-b-20">
+                            <div class="card-body">
+                                <h4 class="card-title">Docker</h4>
+
+                                <div class="text-center">
+                                    <div class="clearfix"></div>
+                                    <ul class="list-inline row mt-4 mb-0">
+                                        <li class="col-4">
+                                            <h5>15</h5>
+                                            <p class="mb-0">Created</p>
+                                        </li>
+                                        <li class="col-4">
+                                            <h5>6</h5>
+                                            <p class="mb-0">Running</p>
+                                        </li>
+                                        <li class="col-4">
+                                            <h5>2</h5>
+                                            <p class="mb-0">Nodes</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card m-b-20">
+                            <div class="card-body">
+                                <h4 class="card-title">Block Storage</h4>
+
+                                <div class="text-center">
+                                    <div class="clearfix"></div>
+                                    <ul class="list-inline row mt-4 mb-0">
+                                        <li class="col-4">
+                                            <h5>50%</h5>
+                                            <p class="mb-0">Used</p>
+                                        </li>
+                                        <li class="col-4">
+                                            <h5>50 GB</h5>
+                                            <p class="mb-0">Stored</p>
+                                        </li>
+                                        <li class="col-4">
+                                            <h5>12</h5>
+                                            <p class="mb-0">Blocks</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card m-b-20">
+                            <div class="card-body">
+                                <h4 class="card-title">Extensions</h4>
+
+                                <div class="text-center">
+                                    <div class="clearfix"></div>
+                                    <ul class="list-inline row mt-4 mb-0">
+                                        <li class="col-4">
+                                            <h5>5</h5>
+                                            <p class="mb-0">Running</p>
+                                        </li>
+                                        <li class="col-4">
+                                            <h5>10</h5>
+                                            <p class="mb-0">Installed</p>
+                                        </li>
+                                        <li class="col-4">
+                                            <h5>12</h5>
+                                            <p class="mb-0">Blocks</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-9 col-md-8 col-lg-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Network Load</h4>
+                        <p class="card-subtitle mb-4">Your network load for this week</p>
+
+                        <div id="morris-area-example" class="morris-chart"></div>
+                    </div>
+                    <!-- end card-body-->
+                </div>
+                <!-- end card-->
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end row -->
+
+        <div class="row">
+            <div class="col-xl-2 col-md-6">
+                <a href="/applications">
+                    <div class="card roundcard">
+                        <div class="card-body">
+                            <div class="text-center display-4">
+                                <div class="clearfix"></div>
+                                <i class="mdi mdi-cloud-outline text-secondary"></i>
+                                <h4 class="card-title text-secondary">Apps</h4>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-6">
+                <a href="/staticsites">
+                    <div class="card roundcard">
+                        <div class="card-body">
+                            <div class="text-center display-4">
+                                <div class="clearfix"></div>
+                                <i class="mdi mdi-web text-secondary"></i>
+                                <h4 class="card-title text-secondary">Static Sites</h4>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-6">
+                <a href="/docker">
+                    <div class="card roundcard">
+                        <div class="card-body">
+                            <div class="text-center display-4">
+                                <div class="clearfix"></div>
+                                <i class="mdi mdi-docker text-secondary"></i>
+                                <h4 class="card-title text-secondary">Docker</h4>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-6">
+                <a href="/databases">
+                    <div class="card roundcard">
+                        <div class="card-body">
+                            <div class="text-center display-4">
+                                <div class="clearfix"></div>
+                                <i class="mdi mdi-database text-secondary"></i>
+                                <h4 class="card-title text-secondary">Databases</h4>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-6">
+                <a href="/storage">
+                    <div class="card roundcard">
+                        <div class="card-body">
+                            <div class="text-center display-4">
+                                <div class="clearfix"></div>
+                                <i class="mdi mdi-cube-outline text-secondary"></i>
+                                <h4 class="card-title text-secondary">Storage</h4>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-xl-2 col-md-6">
+                <a href="/workspaces">
+                    <div class="card roundcard">
+                        <div class="card-body">
+                            <div class="text-center display-4">
+                                <div class="clearfix"></div>
+                                <i class="mdi mdi-visual-studio-code text-secondary"></i>
+                                <h4 class="card-title text-secondary">Workspaces</h4>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-6">
+                <a href="/authentication">
+                    <div class="card roundcard">
+                        <div class="card-body">
+                            <div class="text-center display-4">
+                                <div class="clearfix"></div>
+                                <i class="mdi mdi-fingerprint text-secondary"></i>
+                                <h4 class="card-title text-secondary">Authentication</h4>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-xl-2 col-md-6">
+                <a href="/extensions">
+                    <div class="card roundcard">
+                        <div class="card-body">
+                            <div class="text-center display-4">
+                                <div class="clearfix"></div>
+                                <i class="mdi mdi-rocket text-secondary"></i>
+                                <h4 class="card-title text-secondary">Extensions</h4>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-6">
+                <a href="/email">
+                    <div class="card roundcard">
+                        <div class="card-body">
+                            <div class="text-center display-4">
+                                <div class="clearfix"></div>
+                                <i class="mdi mdi-email text-secondary"></i>
+                                <h4 class="card-title text-secondary">Email</h4>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-6">
+                <a href="/domains">
+                    <div class="card roundcard">
+                        <div class="card-body">
+                            <div class="text-center display-4">
+                                <div class="clearfix"></div>
+                                <i class="mdi mdi-dot-net text-secondary"></i>
+                                <h4 class="card-title text-secondary">Domains</h4>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-6">
+                <a href="/servers">
+                    <div class="card roundcard">
+                        <div class="card-body">
+                            <div class="text-center display-4">
+                                <div class="clearfix"></div>
+                                <i class="mdi mdi-server text-secondary"></i>
+                                <h4 class="card-title text-secondary">Manage</h4>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-6">
+                <a href="/settings">
+                    <div class="card roundcard">
+                        <div class="card-body">
+                            <div class="text-center display-4">
+                                <div class="clearfix"></div>
+                                <i class="mdi mdi-settings text-secondary"></i>
+                                <h4 class="card-title text-secondary">Settings</h4>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- end row-->
+    </div>
+    <!-- container-fluid -->
+</div>
+<!-- End Page-content -->
+
+{{end}}

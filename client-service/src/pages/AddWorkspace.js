@@ -24,18 +24,18 @@ function AddWorkspace() {
                       type="text"
                       className="form-control"
                       required=""
-                      placeholder="Project Cloud"
+                      placeholder=""
                     />
                   </div>
 
                   <div className="form-group">
-                    <label>Git Repository</label>{" "}
-                    <p class="text-muted m-b-15">The url of the git repository where the application is located.</p>
+                    <label>Workspace Password</label>{" "}
+                    <p class="text-muted m-b-15">The password that you will give your devs to access the workspace</p>
                     <input
                       type="text"
                       className="form-control"
                       required=""
-                      placeholder="https://github.com/opencloudai/project-name"
+                      placeholder=""
                     />
                   </div>
                   

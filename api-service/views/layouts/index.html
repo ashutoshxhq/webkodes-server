@@ -1,0 +1,17 @@
+{{ define "layouts/index.html" }}
+<!DOCTYPE html>
+<html lang="en">
+  {{template "partials/head.html"}}
+
+  <body>
+    <div id="layout-wrapper">
+      <div class="main-content">
+        {{template "partials/header.html"}} {{template "partials/navbar.html"}}
+        {{template "content"}} {{template "partials/footer.html"}}
+      </div>
+    </div>
+
+    {{template "partials/scripts.html" .}}
+  </body>
+</html>
+{{end}}
