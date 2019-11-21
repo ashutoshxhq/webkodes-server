@@ -21,7 +21,7 @@ function Compute() {
                             <p className="card-subtitle mb-4 font-size-13">All the deployed application</p>
                         </div>
                         <div className="col-xl-3">
-                            <div className="float-right d-none d-md-block"><Link className="btn btn-secondary active waves-effect waves-light" to="/addapplication"><i className="mdi mdi-hospital mr-2"></i> New Application</Link></div>
+                            <div className="float-right d-none d-md-block"><Link className="btn btn-secondary active waves-effect waves-light" onClick={() => setLoading(true)} to="/addapplication"><i className="mdi mdi-hospital mr-2"></i> New Application</Link></div>
                         </div>
                     </div>
                     <div className="row">
@@ -76,7 +76,7 @@ function Compute() {
                         <div className="col-xl-9">
                             <h3 className="card-title font-16 mt-0">Applications</h3></div>
                         <div className="col-xl-3">
-                            <div className="float-right d-none d-md-block"><Link className="btn btn-secondary active waves-effect waves-light" to="/addapplication"><i className="mdi mdi-hospital mr-2"></i> New Application</Link></div>
+                            <div className="float-right d-none d-md-block"><Link className="btn btn-secondary active waves-effect waves-light" onClick={() => setLoading(true)} to="/addapplication"><i className="mdi mdi-hospital mr-2"></i> New Application</Link></div>
                         </div>
                     </div>
                     <div>

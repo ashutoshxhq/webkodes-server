@@ -22,6 +22,8 @@ import Profile from './pages/Profile';
 import Billing from './pages/Billing';
 import Settings from './pages/Settings';
 import Loading from './partials/Loading';
+import AddContainer from './pages/AddContainer';
+import Containers from './pages/Containers';
 
 
 function App() {
@@ -37,10 +39,12 @@ function App() {
         <Route path="/about" exact component={About}/>
         <Route path="/applications" exact component={Applications}/>
         <Route path="/addapplication" exact component={AddApplication}/>
+        <Route path="/containers" exact component={Containers}/>
+        <Route path="/addcontainer" exact component={AddContainer}/>
         <Route path="/storage" exact component={Storage}/>
         <Route path="/databases" exact component={Database}/>
         <Route path="/staticsites" exact component={StaticApps}/>
-        <Route path="/addstaticapp" exact component={AddStaticApp}/>
+        <Route path="/addstaticsite" exact component={AddStaticApp}/>
         <Route path="/authentication" exact component={AuthService}/>
         <Route path="/servers" exact component={Manage}/>
         <Route path="/workspaces" exact component={Workspaces}/>

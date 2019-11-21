@@ -25,8 +25,8 @@ function Navbar() {
                             </a>
                             <div className="dropdown-menu" aria-labelledby="topnav-pages">
                             <NavLink to="/authentication" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Authentication</NavLink>
-                            <NavLink to="/workspaces" className="dropdown-item" activeClassName="active">Workspaces</NavLink>
-                            <NavLink to="/extensions" className="dropdown-item" activeClassName="active">Extensions</NavLink>
+                            <NavLink to="/workspaces" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Workspaces</NavLink>
+                            <NavLink to="/extensions" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Extensions</NavLink>
                             </div>
                         </li>
     
@@ -36,10 +36,10 @@ function Navbar() {
                                 <div className="arrow-down"></div>
                             </a>
                             <div className="dropdown-menu" aria-labelledby="topnav-components">
-                            <NavLink to="/applications" className="dropdown-item" activeClassName="active">Applications</NavLink>
-                            <NavLink to="/staticsites" className="dropdown-item" activeClassName="active">Static Sites</NavLink>
-                            <NavLink to="/containers" className="dropdown-item" activeClassName="active">Containers</NavLink>
-                            <NavLink to="/databases" className="dropdown-item" activeClassName="active">Databases</NavLink>
+                            <NavLink to="/applications" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Applications</NavLink>
+                            <NavLink to="/staticsites" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Static Sites</NavLink>
+                            <NavLink to="/containers" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Containers</NavLink>
+                            <NavLink to="/databases" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Databases</NavLink>
                             </div>
                         </li>
     
@@ -49,10 +49,10 @@ function Navbar() {
                                 <div className="arrow-down"></div>
                             </a>
                             <div className="dropdown-menu" aria-labelledby="topnav-charts">
-                            <NavLink to="/servers" className="dropdown-item" activeClassName="active">Servers & Nodes</NavLink>
-                            <NavLink to="/docker" className="dropdown-item" activeClassName="active">Docker</NavLink>
-                            <NavLink to="/networks" className="dropdown-item" activeClassName="active">Networks</NavLink>
-                            <NavLink to="/security" className="dropdown-item" activeClassName="active">Security</NavLink>
+                            <NavLink to="/servers" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Servers & Nodes</NavLink>
+                            <NavLink to="/docker" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Docker</NavLink>
+                            <NavLink to="/networks" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Networks</NavLink>
+                            <NavLink to="/security" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Security</NavLink>
                             </div>
                         </li>
     
@@ -62,8 +62,8 @@ function Navbar() {
                                 <div className="arrow-down"></div>
                             </a>
                             <div className="dropdown-menu" aria-labelledby="topnav-forms">
-                            <NavLink to="/blocks/add" className="dropdown-item" activeClassName="active">Add Block</NavLink>
-                            <NavLink to="/blocks" className="dropdown-item" activeClassName="active">Manage Blocks</NavLink>
+                            <NavLink to="/blocks/add" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Add Block</NavLink>
+                            <NavLink to="/blocks" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Manage Blocks</NavLink>
                             </div>
                         </li>
                         <li className="nav-item dropdown">
@@ -72,8 +72,8 @@ function Navbar() {
                                 <div className="arrow-down"></div>
                             </a>
                             <div className="dropdown-menu" aria-labelledby="topnav-forms">
-                            <NavLink to="/domains/add" className="dropdown-item" activeClassName="active">Add Domain</NavLink>
-                            <NavLink to="/domains" className="dropdown-item" activeClassName="active">Manage Domains</NavLink>
+                            <NavLink to="/domains/add" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Add Domain</NavLink>
+                            <NavLink to="/domains" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Manage Domains</NavLink>
                             </div>
                         </li>
     
@@ -83,14 +83,14 @@ function Navbar() {
                                 <div className="arrow-down"></div>
                             </a>
                             <div className="dropdown-menu" aria-labelledby="topnav-forms">
-                            <NavLink to="/webmail" className="dropdown-item" activeClassName="active">Web Client</NavLink>
-                            <NavLink to="/emails/new" className="dropdown-item" activeClassName="active">New Account</NavLink>
-                            <NavLink to="/emails" className="dropdown-item" activeClassName="active">Email Accounts</NavLink>
+                            <NavLink to="/webmail" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Web Client</NavLink>
+                            <NavLink to="/emails/new" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">New Account</NavLink>
+                            <NavLink to="/emails" onClick={() => setLoading(true)} className="dropdown-item" activeClassName="active">Email Accounts</NavLink>
                             </div>
                         </li>
     
                         <li className="nav-item">
-                        <NavLink to="/settings" className="nav-link" activeClassName="active"> <i className="feather-settings mr-2"></i>Settings</NavLink>
+                        <NavLink to="/settings" onClick={() => setLoading(true)} className="nav-link" activeClassName="active"> <i className="feather-settings mr-2"></i>Settings</NavLink>
                            
     
                         </li>
