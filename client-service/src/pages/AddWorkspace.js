@@ -18,7 +18,8 @@ function AddWorkspace() {
               
                 <form className="">
                   <div className="form-group">
-                    <label>Workspace Name</label>{" "}
+                  <h3 className="card-title font-16 mt-0">Workspace Name</h3>
+
                     <p className="text-muted m-b-15">A label for your workspace.</p>
                     <input
                       type="text"
@@ -29,7 +30,8 @@ function AddWorkspace() {
                   </div>
 
                   <div className="form-group">
-                    <label>Workspace Password</label>{" "}
+                  <h3 className="card-title font-16 mt-0">Workspace Password</h3>
+                   
                     <p className="text-muted m-b-15">The password that you will give your devs to access the workspace</p>
                     <input
                       type="text"
@@ -40,7 +42,7 @@ function AddWorkspace() {
                   </div>
                   
                   <div className="form-group">
-                    <label>About Workspace</label>
+                  <h3 className="card-title font-16 mt-0">About Workspace</h3>
                     <p className="text-muted m-b-15">A short description for your workspace.</p>
 
                     <div>
@@ -55,14 +57,14 @@ function AddWorkspace() {
                     <div>
                       <button
                         type="submit"
-                        className="btn btn-primary waves-effect waves-light mr-1"
+                        className="btn btn-secondary active waves-effect waves-light mr-1"
                       >
                         Create Workspace
                       </button>{" "}
                       <Link
                       to="/workspaces"
                       onClick={() => setLoading(true)}
-                        className="btn btn-secondary waves-effect"
+                        className="btn btn-outline-secondary waves-effect"
                       >
                         Back
                       </Link>

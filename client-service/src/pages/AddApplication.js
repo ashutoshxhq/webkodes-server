@@ -17,7 +17,7 @@ function AddApplication() {
               <div className="card-body">
                 <form className="">
                   <div className="form-group">
-                    <label>Application Name</label>{" "}
+                  <h4 className="card-title">Application Name</h4>
                     <p className="text-muted m-b-15">This is a lable name which will be used to refer to this application</p>
                     <input
                       type="text"
@@ -28,7 +28,7 @@ function AddApplication() {
                   </div>
 
                   <div className="form-group">
-                    <label>Git Repository</label>{" "}
+                  <h4 className="card-title">Git Repository</h4>
                     <p className="text-muted m-b-15">The url of the git repository where the application is located.</p>
                     <input
                       type="text"
@@ -39,7 +39,7 @@ function AddApplication() {
                   </div>
 
                   <div className="form-group">
-                    <label>No of Nodes</label>{" "}
+                  <h4 className="card-title">No of Instances</h4>
                     <p className="text-muted m-b-15">This number shows the number of instances that will be created for this application.</p>
                     <input
                       type="number"
@@ -50,7 +50,7 @@ function AddApplication() {
                   </div>
 
                   <div className="form-group">
-                    <label>Domain Name</label>{" "}
+                  <h4 className="card-title">Domain Name</h4>
                     <p className="text-muted m-b-15">Domain name that you want to link to this application.</p>
                     <select className="form-control">
                       <option>Select</option>
@@ -60,7 +60,7 @@ function AddApplication() {
                   </div>
 
                   <div className="form-group">
-                    <label>Database</label>{" "}
+                  <h4 className="card-title">Database</h4>
                     <p className="text-muted m-b-15">Database that you want to link to this application.</p>
                     <select className="form-control">
                       <option>Select</option>
@@ -71,7 +71,7 @@ function AddApplication() {
                   </div>
 
                   <div className="form-group">
-                    <label>About Applications</label>
+                  <h4 className="card-title">About Application</h4>
                     <p className="text-muted m-b-15">A short description for your application.</p>
                     <div>
                       <textarea
@@ -85,14 +85,14 @@ function AddApplication() {
                     <div>
                       <button
                         type="submit"
-                        className="btn btn-primary waves-effect waves-light mr-1"
+                        className="btn btn-secondary active waves-effect waves-light mr-1"
                       >
                         Create App
                       </button>{" "}
                       <Link
                         to="/applications"
                         onClick={() => setLoading(true)}
-                        className="btn btn-secondary waves-effect"
+                        className="btn btn-outline-secondary waves-effect"
                       >
                         Back
                       </Link>
