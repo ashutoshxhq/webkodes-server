@@ -8,7 +8,7 @@ import (
 func main() {
 	r := gin.Default()
 	r.Static("/public", "./public")
-	r.LoadHTMLGlob("views/**/*")
+	r.LoadHTMLGlob("views/*")
 	r = routes.AuthRouter(r)
 	r = routes.IndexRouter(r)
 	r.Run("localhost:8080")
