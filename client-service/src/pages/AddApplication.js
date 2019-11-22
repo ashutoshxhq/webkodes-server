@@ -12,7 +12,7 @@ function AddApplication() {
     <div className="page-content">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-12">
+          <div className="col-xl-9 mauto">
             <div className="card">
               <div className="card-body">
                 <form className="">
@@ -38,6 +38,18 @@ function AddApplication() {
                     />
                   </div>
 
+                  <div className="form-group">
+                  <h4 className="card-title">Application Type</h4>
+                    <p className="text-muted m-b-15">Type of application that you want to deploy</p>
+                    <select className="form-control">
+                      <option>Select</option>
+                      <option>Node JS</option>
+                      <option>Go</option>
+                      <option>PHP</option>
+                    </select>
+                  </div>
+
+                 
                   <div className="form-group">
                   <h4 className="card-title">No of Instances</h4>
                     <p className="text-muted m-b-15">This number shows the number of instances that will be created for this application.</p>
@@ -70,17 +82,7 @@ function AddApplication() {
                     </select>
                   </div>
 
-                  <div className="form-group">
-                  <h4 className="card-title">About Application</h4>
-                    <p className="text-muted m-b-15">A short description for your application.</p>
-                    <div>
-                      <textarea
-                        required=""
-                        className="form-control"
-                        rows="5"
-                      ></textarea>
-                    </div>
-                  </div>
+                 
                   <div className="form-group mb-0">
                     <div>
                       <button
